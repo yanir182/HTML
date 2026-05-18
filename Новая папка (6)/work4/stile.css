@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:dimgrey;
+
+}
+.btn{
+    font-size: 35px;
+    padding: 10px 30px;
+    margin-bottom: 40px;
+    background-color: rgb(63, 63, 63);
+}
+.block{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 200px;
+    background-color: rgb(110, 238, 238);
+    /* transform: translate(500px,0px); */
+    transition: 1s;
+    /* transform-origin: right bottom; */
+    /* transform-origin: 500px 500px; */
+    /* transform: scale(0); */
+    transform-origin: right;
+}
+.btn:hover ~ .block{
+    /* transform: translate(500px,200px); */
+    /* transform: rotate(5000turn); */
+    /* transform: scale(1); */
+    /* transform: skewX(30deg) */
+    /* transform: rotate(10turn) translate(1000px,500px)  scale(0.5); */
+    /* transform: perspective(1000px) rotateX(45deg); */
+    animation: DVD 15s;
+}
+@keyframes DVD{
+    0%{
+        transform: translate(0px,0px);
+    }
+    25%{
+         transform: translate(1000px,0px);
+         background-color: darkgreen;
+    }
+    50%{
+         transform: translate(1000px,400px);
+    }
+    75%{
+         transform: translate(0px,400px);
+    }
+    100%{
+         transform: translate(0px,0px);
+    }
+}
