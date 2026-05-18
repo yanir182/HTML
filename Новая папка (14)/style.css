@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+    /* box-sizing: border-box; */
+}
+body{
+    background-color: darkgray;
+    padding: 100px;
+}
+.block{
+    width: 500px;
+    height: 500px;
+    border: 25px solid lawngreen;
+    background-color: cadetblue;
+    /* border-top: 20px solid rgb(16, 16, 114);
+    border-left: 30px rgb(84, 158, 11); */
+    overflow: auto;
+}
+.page{
+    max-width: 1200px;
+    min-height: 100vh;
+    background-color: gray;
+    padding: 50px;
+    margin: 0 auto;
+    /* position: relative; */
+
+}
+img{
+    vertical-align: top;
+}
+button{
+    padding: 10px 30px;
+    font-size: 30px;
+    margin: 30px;
+}
+hr{
+    margin: 20px 0px;
+}
+.text{
+    font-size: 24px;
+    line-height: 1,6;
+    text-align: justify;
+}
+.box{
+    display: inline-block;
+    padding: 50px;
+    background-color: darkgray;
+    color: lawngreen;
+}
