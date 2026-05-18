@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+body{
+    padding: 100px;
+}
+
+
+.spisok{
+    border: 2px;
+    padding: 10px;
+    width: 800px;
+    background-color: rgb(87, 87, 87);
+    list-style-position: inside;
+    color: rgb(39, 190, 190);
+
+}
+.spisok li{
+    font-weight: 600;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    background-color: rgb(141, 112, 50);
+    font-family: "Robot", sans-serif;
+}
+.spisok li span {
+    background-color: rgb(109, 36, 63);
+    padding: 10px 40px;
+}
