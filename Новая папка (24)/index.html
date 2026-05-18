@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Камень Ножницы Бумага</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="game">
+    <h1>Камень Ножницы Бумага</h1>
+
+    <div class="choices">
+        <button onclick="play('rock')">🗿 Камень</button>
+        <button onclick="play('scissors')">✂️ Ножницы</button>
+        <button onclick="play('paper')">📄 Бумага</button>
+    </div>
+
+    <div class="result">
+        <p id="playerChoice">ТВОЕ ОРУДИЕ ДЛЯ СРАЖЕНИЯ С Т1000: -</p>
+        <p id="computerChoice">Его орудие: -</p>
+        <h2 id="winner">Результат</h2>
+    </div>
+
+    <div class="score">
+        <p>ТВОИ ПОПЕДЫ В ЭТОЙ НЕ ЧЕСТНОЙ БИТВЕ: <span id="playerScore">0</span></p>
+        <p>Его победы: <span id="computerScore">0</span></p>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
