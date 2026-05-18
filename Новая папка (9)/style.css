@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: gray;
+    
+}
+.page{
+    max-width: 1200px;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+.slide{
+    position: relative;
+    height: 100vh;
+}
+.pic{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    transform: 1s;
+}
+.pic_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.viden{
+    opacity: 1;
+}
+.prev ,
+ .next{
+    padding: 10px 30px;
+    font-size: 50px;
+    position: absolute;
+}
+.next{
+    right: 50px;
+}
+.prev{
+    left: 50px;
+}
