@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+body{
+    background-color: rgba(170, 103, 233, 0.664);
+    padding: 20px;
+}
+.title{
+    font-family:"Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+.L1{
+     font-family:"Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+.L2{
+     font-family:"Roboto", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+.L3{
+     font-family:"Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+h2{
+    margin: 15px 0px;
+}
+.spisok1{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 30px;
+    width: 400px;
+    background-color: rgba(216, 16, 139, 0.548);
+    /* list-style-type: none; */
+    list-style-position: inside;
+
+}
+.spisok1 li{
+    background-color: aquamarine;
+    margin: 10px 0px;
+    padding: 10px 20px;
+    font-family: "Robot", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 9px;
+
+}
+.inlist{
+    background-color: rgba(168, 253, 31, 0.836);
+}
+.ll{
+    background-color: grey;
+}
+hr{
+    margin: 27px;
+}
+.mac{
+    border: 2px solid black;
+    width: 400px;
+    background-color: antiquewhite;
+    padding: 20px;
+    list-style-position: inside;
+    list-style-type: none;
+    list-style-image:url(/123.png) ;
+}
+.mac li{
+    background-color: azure;
+    padding: 15px;
+    font-family: "Robot", sans-serif;
+    font-size: 34px;
+    font-weight: 200;
+    margin: 5px 0px;
+    }
+dt{
+    background-color: rgb(0, 0, 0);
+    color: aqua;
+    font-size: 24px;
+    font-weight: 10px;
+    padding: 14px;
+}
+dd{
+     background-color: rgba(0, 0, 0, 0.466);
+    color: rgba(47, 231, 93, 0.822);
+    font-size: 24px;
+    font-weight: 10px;
+    padding: 14px;
+}
