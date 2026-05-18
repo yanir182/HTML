@@ -1,0 +1,24 @@
+.cards{
+    border: 2px solid black;
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.card{
+    width: 300px;
+    background-color: green;
+    display: flex;
+    padding: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.card_img{
+    width: 25px;
+    object-fit: contain;
+    border: 2px solid black;
+}
