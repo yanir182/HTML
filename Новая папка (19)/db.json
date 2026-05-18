@@ -1,0 +1,26 @@
+{
+    "people": [ 
+        {
+            "name": "NoName",
+            "surname": "NoName",
+            "age": 52,
+             "phone": "+7 (952) 812"
+        },
+        {
+            "name": "Perech",
+            "surname": "NoName",
+            "age": 1488,
+             "phone": "+7 (952) 812"
+        },
+        {
+            "name": "NoName",
+            "surname": "NoName",
+            "age": 67,
+             "phone": "+7 (952) 812"
+        }
+
+    ]
+
+
+
+}
